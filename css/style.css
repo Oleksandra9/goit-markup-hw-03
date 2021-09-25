@@ -146,6 +146,7 @@ li {
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
+  margin-bottom: 94px;
 }
 
 .hero-button:hover,
@@ -153,7 +154,15 @@ li {
   color: var(--main-white-color);
   background-color: #188ce8;
 }
-/* Features */
+/* ----------------Features-------------- */
+
+.features-container {
+  background-color: rgb(8, 70, 3);
+}
+
+.features-list {
+  display: flex;
+}
 
 .section-title {
   font-weight: 700;
@@ -171,6 +180,16 @@ li {
   font-size: 14px;
   line-height: 1.1;
   color: var(--secondary-text-color);
+
+  margin-bottom: 10px;
+}
+
+.features-item {
+  margin-right: 30px;
+  min-width: 270px;
+}
+.features-item:last-child {
+  margin-right: 0px;
 }
 
 /* works */
