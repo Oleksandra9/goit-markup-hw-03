@@ -40,6 +40,9 @@ li {
   padding: 0px;
 }
 
+img {
+  display: block;
+}
 /*----------------HEADER------------------ */
 
 .header-container {
@@ -157,7 +160,9 @@ li {
 /* ----------------Features-------------- */
 
 .features-container {
-  background-color: rgb(8, 70, 3);
+  background-color: rgb(149, 248, 142);
+
+  margin-bottom: 94px;
 }
 
 .features-list {
@@ -169,6 +174,8 @@ li {
   font-size: 36px;
   line-height: 1.2;
   color: var(--secondary-text-color);
+  text-align: center;
+  margin-bottom: 50px;
 }
 
 .features-text {
@@ -192,7 +199,22 @@ li {
   margin-right: 0px;
 }
 
-/* works */
+/* -------------works------------- */
+
+.works-container {
+  background-color: rgb(158, 151, 250);
+}
+
+.works-list {
+  display: flex;
+}
+
+.works-item {
+  margin-right: 30px;
+}
+.works-item:nth-last-child(3n + 1) {
+  margin-right: 0px;
+}
 
 /* team */
 
