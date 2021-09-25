@@ -16,6 +16,7 @@ body {
 }
 .link {
   text-decoration: none;
+  font-style: normal;
 }
 .list {
   list-style: none;
@@ -117,9 +118,12 @@ li {
 .hero-title {
   font-weight: 900;
   font-size: 44px;
-  line-height: 1.9;
+  line-height: 1.4;
   letter-spacing: 0.06em;
   color: var(--main-white-color);
+
+  text-align: center;
+  margin-bottom: 30px;
 }
 
 .hero-button {
@@ -131,6 +135,17 @@ li {
   color: var(--main-white-color);
   font-family: Roboto, sans-serif;
   cursor: pointer;
+
+  border-radius: 4px;
+  padding: 10px 32px;
+  border: none;
+}
+
+.hero-container {
+  background-color: yellow;
+  text-align: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .hero-button:hover,
@@ -182,8 +197,17 @@ li {
 .logo-title-second {
   color: var(--main-white-color);
 }
+.logo-footer {
+  margin: 0px;
+  margin-bottom: 20px;
+  display: inline-block;
+}
 .footer {
   background-color: var(--secondary-background-color);
+}
+.footer-container {
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .address-link {
@@ -192,10 +216,25 @@ li {
   line-height: 1.2;
   letter-spacing: 0.03em;
 }
+.address-container {
+  display: flex;
+  flex-direction: column;
+}
+.address-container-item {
+  margin-bottom: 9px;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+}
+
+.address-container-item:last-child {
+  margin-bottom: 0px;
+}
 .address-link:hover,
 .address-link:focus {
   color: var(--accent-color);
 }
+
 /* portfolio (2-d page) */
 
 .portfolio-button {

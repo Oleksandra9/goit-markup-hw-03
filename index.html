@@ -56,8 +56,12 @@
     <main>
       <!-- hero -->
       <section class="hero">
-        <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
-        <button class="hero-button" type="button">Заказать услугу</button>
+        <div class="container hero-container">
+          <h1 class="hero-title">
+            Эффективные решения <br />для вашего бизнеса
+          </h1>
+          <button class="hero-button" type="button">Заказать услугу</button>
+        </div>
       </section>
 
       <!-- features -->
@@ -180,29 +184,31 @@
     </main>
     <!-- footer -->
     <footer class="footer">
-      <a class="logo link" href="./index.html"
-        ><span class="logo-title-first">Web</span
-        ><span class="logo-title-second">Studio</span></a
-      >
-      <address class="address">
-        <ul class="address-list list">
-          <li>
-            <a class="address-link link" href=""
-              >г. Киев, пр-т Леси Украинки, 26</a
-            >
-          </li>
-          <li>
-            <a class="contacts-link link" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li>
-            <a class="contacts-link link" href="tel:+380961111111"
-              >+38 096 111 11 11</a
-            >
-          </li>
-        </ul>
-      </address>
+      <div class="container footer-container">
+        <a class="logo logo-footer link" href="./index.html"
+          ><span class="logo-title-first">Web</span
+          ><span class="logo-title-second">Studio</span></a
+        >
+        <address class="address">
+          <ul class="address-list address-container list">
+            <li class="address-container-item">
+              <a class="address-link link" href=""
+                >г. Киев, пр-т Леси Украинки, 26</a
+              >
+            </li>
+            <li class="address-container-item">
+              <a class="contacts-link link" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li class="address-container-item">
+              <a class="contacts-link link" href="tel:+380961111111"
+                >+38 096 111 11 11</a
+              >
+            </li>
+          </ul>
+        </address>
+      </div>
     </footer>
   </body>
 </html>
