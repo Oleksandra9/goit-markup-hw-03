@@ -47,12 +47,14 @@ li {
 
 img {
   display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 /*----------------HEADER------------------ */
 
 .header-line {
-  border: 1px solid #ececec;
+  border-bottom: 1px solid #ececec;
 }
 .header-container {
   display: flex;
@@ -120,7 +122,7 @@ img {
 .logo {
 }
 
-/* ------------------hero------------------------- */
+/* ------------------HERO------------------------- */
 
 .hero {
   background-color: var(--secondary-background-color);
