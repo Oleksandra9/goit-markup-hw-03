@@ -30,6 +30,11 @@ body {
   margin-right: auto;
 }
 
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 h1,
 h2,
 h3,
@@ -153,7 +158,7 @@ img {
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
-  margin-bottom: 94px;
+  /* margin-bottom: 94px; */
 }
 
 .hero-button:hover,
@@ -164,11 +169,11 @@ img {
 
 /* ----------------Features-------------- */
 
-.features-container {
-  /* background-color: rgb(149, 248, 142); */
+/* .features-container { */
+/* background-color: rgb(149, 248, 142); */
 
-  margin-bottom: 94px;
-}
+/* margin-bottom: 94px; */
+/* } */
 
 .features-list {
   display: flex;
@@ -207,12 +212,15 @@ img {
 
 /* -------------works------------- */
 
-.works-container {
-  /* background-color: rgb(158, 151, 250); */
+/* .works-container { */
+/* background-color: rgb(158, 151, 250); */
 
-  margin-bottom: 94px;
+/* margin-bottom: 94px;
+} */
+
+.works {
+  padding-top: 0px;
 }
-
 .works-list {
   display: flex;
 }
@@ -226,12 +234,12 @@ img {
 
 /* -----------------team------------------------ */
 
-.team-container {
-  /* background-color: rgb(212, 241, 157); */
+/* .team-container { */
+/* background-color: rgb(212, 241, 157); */
 
-  padding-top: 94px;
+/* padding-top: 94px;
   padding-bottom: 94px;
-}
+} */
 
 .team-list {
   display: flex;
@@ -320,16 +328,16 @@ img {
 
 /* ------------------portfolio (2-d page)------------------ */
 
-.portfolio-container {
-  /* background-color: rgb(208, 208, 250); */
+/* .portfolio-container { */
+/* background-color: rgb(208, 208, 250); */
 
-  margin-bottom: 94px;
-}
+/* margin-bottom: 94px;
+} */
 
 .portfolio-list-buttons {
   display: flex;
   justify-content: center;
-  margin-top: 94px;
+  /* margin-top: 94px; */
   margin-bottom: 50px;
 }
 
